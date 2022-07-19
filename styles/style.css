@@ -1,0 +1,162 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #562EFF;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-left: 285px;
+}
+.nav-left h2{
+    color: white;
+    font-size: 24px;
+    padding-left: 15px;
+}
+.logo{
+    width: 40px;
+    height: 51px;
+}
+.nav-right{
+    margin-right: 255px;
+}
+.nav-right ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav-right ul li{
+    padding: 20px 30px;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-right ul li img{
+    padding-top: 4px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* top players style */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 16px;
+}
+/* ------------------------
+        top blog styles
+-------------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 26px;
+
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* --------------------
+    courses styles 
+-----------------------*/
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
